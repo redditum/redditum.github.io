@@ -4,17 +4,19 @@
  * To use this theme you must have a license purchased at WrapBootstrap (https://wrapbootstrap.com)
  */
 body {
-  height: 100%;
+  height:100% !important;
   color: #3e444d;
   background-color: #f4f5f7;
+  overflow: hidden;
 }
 html {
   height: 100% !important;
   -ms-overflow-style: scrollbar;
 }
 #wrapper {
-  height: 100%;
+  height: 100% !important;
   width: 100%;
+  overflow: hidden;
 }
 img {
   -webkit-backface-visibility: hidden;

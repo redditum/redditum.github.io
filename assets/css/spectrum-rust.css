@@ -1340,7 +1340,7 @@ a.light-text:focus {
 .bg-parallax-dark {
   width: 100%;
   height: auto;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   background-size: 100% auto;
@@ -1366,7 +1366,7 @@ a.light-text:focus {
 @media (min-width: 767px) {
   .bg-parallax-light,
   .bg-parallax-dark {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: 100% auto;
     
   }
@@ -2872,7 +2872,7 @@ p.demo-text {
   font-size: 32px;
   letter-spacing: 3px;
   height: 300px;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: 0% 0%;
   background-size: 100% auto;
 }

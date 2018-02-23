@@ -48,7 +48,7 @@ jQuery(document).ready(function() {
     // Activates Owl Carousel Sliders
     $("#about-1-carousel, #services-1-carousel").owlCarousel({
 
-        items: 4,
+        items: 3,
         itemsDesktop: [1199, 3],
         itemsDesktopSmall: [979, 3],
         autoPlay: true

@@ -2970,3 +2970,19 @@ p.demo-text {
   width: 1.28571429em;
   font-size: 2em;
 }
+
+#location-text {
+  background-color:#f4f5f7;
+}
+
+#virtual-tour-button{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#directions-button{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}

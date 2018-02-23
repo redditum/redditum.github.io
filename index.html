@@ -75,8 +75,12 @@
                             <a href="#services">Servicios</a>
                         </li>
                         <li class="page-scroll">
+                            <a href="#location">Locacion</a>
+                        </li>
+                        <li class="page-scroll">
                             <a href="#work">Portafolio</a>
                         </li>
+                        
 						<!--<li class="page-scroll">
                             <a href="#available">Disponibilidad</a>
                         </li>-->
@@ -95,7 +99,9 @@
         <header class="intro-img intro-dark-bg" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="50" style="background-image: url(assets/img/portada.jpg)">
             <div class="intro-body" >
                 <div class="container">
+                    <!--
                     <img src="assets/img/texto-inicio.png" data-scrollreveal="move 10 over 3s" alt="Eventos en el Paraiso">
+                    -->
                     <div class="page-scroll" data-scrollreveal="enter bottom after .6s">
                         <a href="#about" class="btn btn-scroll-light sink">
                             <i class="fa fa-angle-double-down"></i>
@@ -118,7 +124,10 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p>Somos una marca que celebra la vida y el amor, entonces las posibilidades son  infinitas, podemos analizar cada evento y comunicarlo de una manera especial y diferente, personalizada, ir más allá. Contamos con  un equipo profesional que capta tu estilo, entiende lo que tienes en mente y propone ideas.</p>
+                        <p>Somos una empresa de organización de eventos comprometida
+                            a la creación de experiencias inigualables. Ofrecemos a nuestros
+                            clientes corporativos y particulares una amplia gama de servicios donde
+                            identificamos, diseñamos y convertimos sueños en realidades.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -131,16 +140,6 @@
                                     <!-- Name / Position / Social Links -->
                                     <h3>Karla Semanate</h3>
                                     <p>CEO &amp; Fundadora</p>
-                                    
-                                </div>
-                            </div>
-                            <div class="item about-img-2">
-                                <div class="info">
-                                    <!-- Mobile Fallback Image -->
-                                    <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/ivonebn.jpg" alt="">
-                                    <!-- Name / Position / Social Links -->
-                                    <h3>Ivone Molina</h3>
-                                    <p>Gerente Administrativa</p>
                                     
                                 </div>
                             </div>
@@ -173,10 +172,12 @@
 		
 		<!-- Primer parallax -->
         <div id="parallaxwrapper">
-          <aside id="primer-parallax" class="bg-parallax-dark" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="100" data-stellar-offset-parent="true">
-              <div class="container">
+          <aside id="primer-parallax" class="bg-parallax-dark" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0" data-stellar-offset-parent="true">
+            <!--  
+            <div class="container">
                 <img class="pull-right img-responsive" id="primer-parallax-texto" src="assets/img/frase1-texto.png" data-scrollreveal="enter right over 2.5s" alt="Un respiro en el paraiso">
-              </div>
+            </div>
+            -->
           </aside>
         </div>
 		<!-- Fin primer parallax -->
@@ -243,12 +244,53 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
 		<!-- Segundo parallax -->
         <div id="parallaxwrapper">
           <aside id="segundo-parallax" class="bg-parallax-dark" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
-              <div class="container">
+            <!-- 
+            <div class="container">
                 <img class="pull-left img-responsive" id="segundo-parallax-texto" src="assets/img/begins2.svg" data-scrollreveal="enter left over 2.5s" alt="And so the adventure begins">
-              </div>
+            </div>
+            -->
           </aside>
         </div>
 		<!-- Fin segundo parallax -->
+
+        <!-- Locacion -->
+        <section id ="location">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <img src="assets/img/portofino.png" alt="Portofino">
+                        <hr class="primary">
+                        <div class="row">
+                            <div id="location-text" class="col-lg-8 col-lg-offset-2 text-center">
+                                <p>La Quinta Portofino es un lugar único en medio de la naturaleza, en donde podrás explotar tres ambientes que se unen para crear momentos inolvidables.</p>
+                                <p>1225 m2 de infraestrusctura moderna; 3 lagunas; un boscaje de 1000 m2 con una amplia variedad de aguacateros; amplia área de catering; una casa con capacidad para alojar a 25 personas; y parqueadero.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-4 col-md-offset-2">
+                                    <a href = "assets/tour.html" id="virtual-tour-button" class="btn btn-primary" role="button" target="_blank">Tour Virtual</a>
+                                </div>
+                                <div class="col-md-4">
+                                    <button id="directions-button" type="button" class="btn btn-primary">Como llegar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin de locacion -->
+
+        <!-- Tercer parallax -->
+        <div id="parallaxwrapper">
+          <aside id="segundo-parallax" class="bg-parallax-dark" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+              <!--<div class="container">
+                <img class="pull-left img-responsive" id="segundo-parallax-texto" src="assets/img/begins2.svg" data-scrollreveal="enter left over 2.5s" alt="And so the adventure begins">
+              </div>-->
+          </aside>
+        </div>
+        <!-- Fin de tercer parallax -->
 
 		<!-- Portafolio -->
         <section id="work" class="portfolio-1">
@@ -592,7 +634,7 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <span class="small">Copyright &copy; 2017 - Redditum. Todos los derechos reservados.</span>
+                            <span class="small">Copyright &copy; 2018 - Redditum. Todos los derechos reservados.</span>
                         </div>
                     </div>
                 </div>

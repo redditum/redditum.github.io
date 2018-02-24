@@ -2932,8 +2932,26 @@ p.demo-text {
     background-image: url('../img/frase2.jpg');
   }
 }
-    
+  
 
+/*Tercer parallax en dispositivos moviles*/
+#tercer-parallax {
+  background-image: url('../img/frase3mobile.jpg');
+}
+
+/*Tercer parallax en dispositivos moviles mas grandes y pantallas de PC pequeñas*/
+@media (min-width: 520px) and (max-width: 1023px) { 
+  #tercer-parallax {
+    background-image: url('../img/frase3mobile3.jpg'); 
+  }
+}
+
+/*Tercer parallax en pantallas grandes*/
+@media (min-width: 1024px) {
+  #tercer-parallax{
+    background-image: url('../img/frase3.jpg');
+  }
+}
 
 
 /*
@@ -2979,6 +2997,7 @@ p.demo-text {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  line-height: 186px;
 }
 
 #directions-button{
